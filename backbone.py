@@ -1,2 +1,3 @@
-userinput = input("say something bro")
+userinput = input("Guess a letter")
 print(userinput)
+listofwords = [tree, car, nickel, hangman]
