@@ -5,4 +5,4 @@ selectedword = random.choice(listofwords)
 if userinput in selectedword:
   print("You guessed a letter correctly!")
 else:
-  print(Yyou've guessed a letter incorrectly!")
+  print("You've guessed a letter incorrectly!")
