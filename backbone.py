@@ -1,6 +1,6 @@
 userinput = input("Guess a letter")
 print(userinput)
-listofwords = [tree, car, nickel, hangman]
+listofwords = ["tree", "car", "nickel", "hangman", "penny"]
 selectedword = random.choice(listofwords)
 length = selectedword.len()
 if userinput in selectedword:
