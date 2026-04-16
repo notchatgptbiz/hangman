@@ -10,9 +10,9 @@ print("Begin guessing letters")
 while "_" in display and wrongletters < 6:
     userinput = input()
     if userinput in selectedword:
-        print("You guessed a letter correctly, and you still have " + str(6 - wrongletters) + " left!")
+        print("You guessed a letter correctly, and you still have " + str(6 - wrongletters) + " guesses left!")
     elif userinput not in selectedword:
-        print("You've guessed a letter incorrectly, and you have " + str(6 - wrongletters) + " left!")
+        print("You've guessed a letter incorrectly, and you have " + str(6 - wrongletters) + " guesses left!")
         wrongletters += 1
     print(display)
 
