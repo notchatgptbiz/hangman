@@ -4,7 +4,7 @@ listofwords = ["tree", "car", "nickel", "hangman", "penny"]
 selectedword = random.choice(listofwords)
 length = len(selectedword)
 print("Your word has " + str(length) + " letters")
-display = ("_" * length)
+display = ("_ " * length)
 while "_" in display:
     print("Begin guessing letters")
     userinput = input()
